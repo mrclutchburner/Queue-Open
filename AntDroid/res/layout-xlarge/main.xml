@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    android:background="@drawable/background_pot">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.99">
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgLogin"
+                    android:background="@drawable/login_selector"
+                    android:layout_marginRight="5dp" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgLogout"
+                    android:background="@drawable/logout_selector"
+                    android:layout_marginRight="5dp" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgSetting"
+                    android:background="@drawable/setting_selector"
+                    android:layout_marginRight="5dp" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgClose"
+                    android:background="@drawable/close_selector"
+                    android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="2dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:weightSum="1"
+                android:layout_weight="0.18">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imvUser"
+                    android:background="@drawable/user_out"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.24">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="User Is Logout"
+                    android:id="@+id/txtUserLogin"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Not Acces"
+                    android:id="@+id/txtStatus"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="0.58">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:weightSum="1"
+                    >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Disconnected"
+                        android:id="@+id/txtSatatusConnect"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="225dp" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imgConnect"
+                        android:background="@drawable/connect_selector"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0 0000"
+            android:id="@+id/txtNomor"
+            android:layout_gravity="center_horizontal"
+            android:textSize="175dp"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/black"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0000"
+            android:id="@+id/txtTotQueue"
+            android:textAlignment="textStart"
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="600dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0000"
+            android:id="@+id/txtTotHolding"
+            android:textAlignment="textStart"
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="600dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgCall"
+            android:background="@drawable/call_selector"
+            android:layout_marginLeft="90dp" />
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgTransfer"
+            android:background="@drawable/transfer_selector"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgRecall"
+            android:background="@drawable/recall_selector"
+            android:layout_marginLeft="90dp" />
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgStart"
+            android:background="@drawable/start_selector"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgPending"
+            android:background="@drawable/pending_selector"
+            android:layout_marginLeft="90dp" />
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgFinish"
+            android:background="@drawable/finish_selector"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgCallPending"
+            android:background="@drawable/callpending_selector"
+            android:layout_marginLeft="90dp" />
+    </LinearLayout>
+
+</LinearLayout>

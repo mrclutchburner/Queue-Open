@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntDroid</string>
+    <string name="action_settings">Setting</string>
+    <string name="spinner_prompt">Choose a country</string>
+    <string-array name="spinnerItems">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>Express=True</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>My-Computer.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>Vertikal = False,MultiLayanan=False,Adira=False,dualLayanan=False</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Server.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Server.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eneter.Messaging.Framework">
+      <HintPath>..\..\..\..\dll Class\EneterMessaging Framework\Net35\Release\Eneter.Messaging.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>F:\Data belajar dan kerja\Data kerja Antrian Farmasi\Sisitem\Server Antrian\Server\Server\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SmoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="net.voice, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Voice\bin\Debug\net.voice.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Spire.DataExport">
+      <HintPath>..\Server\bin\Debug\Spire.DataExport.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.DataExport.ResourceMgr">
+      <HintPath>..\Server\bin\Debug\Spire.DataExport.ResourceMgr.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>..\Server\bin\Debug\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VideoGrabberNET3.5">
+      <HintPath>..\..\..\..\dll Class\vidgrab_10.4.2.4\CSharp_VB.NET\VideoGrabberNET3.5.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Web" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Setting Valas\AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessAnotherForm.vb" />
+    <Compile Include="Class Function\CryptorEngine.vb" />
+    <Compile Include="Class Function\DataAccess.vb" />
+    <Compile Include="Class Function\DataOutput.vb" />
+    <Compile Include="Class Function\DataValas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class Function\Int2BCD.vb" />
+    <Compile Include="Class Function\ModulAntrian.vb" />
+    <Compile Include="Class Function\Program.vb" />
+    <Compile Include="Class Function\ProtocolCommand.vb" />
+    <Compile Include="Class Function\RegAcces.vb" />
+    <Compile Include="Class Function\SecuritySettings.vb" />
+    <Compile Include="Class Function\WindowsController.vb" />
+    <Compile Include="dbAntrianDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbAntrianDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog1.designer.vb">
+      <DependentUpon>Dialog1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\Config.designer.vb">
+      <DependentUpon>Config.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\Config.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\ConfigServer.designer.vb">
+      <DependentUpon>ConfigServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\ConfigServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\Deposito.designer.vb">
+      <DependentUpon>Deposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\Deposito.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form Server\Giro.designer.vb">
+      <DependentUpon>Giro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\Giro.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form Server\Kredit.designer.vb">
+      <DependentUpon>Kredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\Kredit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form Server\Report.designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\SecrenConfig.designer.vb">
+      <DependentUpon>SecrenConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\SecrenConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\SetAntrian.designer.vb">
+      <DependentUpon>SetAntrian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\SetAntrian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\SettingConection.Designer.vb">
+      <DependentUpon>SettingConection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\SettingConection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\SettingMedia.Designer.vb">
+      <DependentUpon>SettingMedia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\SettingMedia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\SettingWarnaDisplay.designer.vb">
+      <DependentUpon>SettingWarnaDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\SettingWarnaDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\UserLogin.designer.vb">
+      <DependentUpon>UserLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\UserLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Server\Valas.designer.vb">
+      <DependentUpon>Valas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Server\Valas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\NewTiket.designer.vb">
+      <DependentUpon>NewTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\NewTiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print Tiket\SettingPrinter.Designer.vb">
+      <DependentUpon>SettingPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\SettingPrinter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print Tiket\TextViewBox.Designer.vb">
+      <DependentUpon>TextViewBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\TextViewBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print Tiket\Tiket.designer.vb">
+      <DependentUpon>Tiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\Tiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print Tiket\TiketPrint.designer.vb">
+      <DependentUpon>TiketPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\TiketPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print Tiket\TiketTutup.designer.vb">
+      <DependentUpon>TiketTutup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print Tiket\TiketTutup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server.Designer.vb">
+      <DependentUpon>Server.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Server.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting Valas\BataraForm.designer.vb">
+      <DependentUpon>BataraForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\BataraForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting Valas\DepositoForm.designer.vb">
+      <DependentUpon>DepositoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\DepositoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting Valas\GiroForm.designer.vb">
+      <DependentUpon>GiroForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\GiroForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting Valas\KreditForm.designer.vb">
+      <DependentUpon>KreditForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\KreditForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting Valas\KursValas.designer.vb">
+      <DependentUpon>KursValas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\KursValas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting Valas\SimpedaForm.designer.vb">
+      <DependentUpon>SimpedaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setting Valas\SimpedaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Setting Valas\AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog1.resx">
+      <DependentUpon>Dialog1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\Config.resx">
+      <DependentUpon>Config.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\ConfigServer.resx">
+      <DependentUpon>ConfigServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\Deposito.resx">
+      <DependentUpon>Deposito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\Giro.resx">
+      <DependentUpon>Giro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\Kredit.resx">
+      <DependentUpon>Kredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\SecrenConfig.resx">
+      <DependentUpon>SecrenConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\SetAntrian.resx">
+      <DependentUpon>SetAntrian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\SettingConection.resx">
+      <DependentUpon>SettingConection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\SettingMedia.resx">
+      <DependentUpon>SettingMedia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\SettingWarnaDisplay.resx">
+      <DependentUpon>SettingWarnaDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\UserLogin.resx">
+      <DependentUpon>UserLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Server\Valas.resx">
+      <DependentUpon>Valas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Tiket\NewTiket.resx">
+      <DependentUpon>NewTiket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Tiket\SettingPrinter.resx">
+      <DependentUpon>SettingPrinter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Tiket\TextViewBox.resx">
+      <DependentUpon>TextViewBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Tiket\Tiket.resx">
+      <DependentUpon>Tiket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Tiket\TiketPrint.resx">
+      <DependentUpon>TiketPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Tiket\TiketTutup.resx">
+      <DependentUpon>TiketTutup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server.resx">
+      <DependentUpon>Server.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting Valas\BataraForm.resx">
+      <DependentUpon>BataraForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting Valas\DepositoForm.resx">
+      <DependentUpon>DepositoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting Valas\GiroForm.resx">
+      <DependentUpon>GiroForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting Valas\KreditForm.resx">
+      <DependentUpon>KreditForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting Valas\KursValas.resx">
+      <DependentUpon>KursValas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting Valas\SimpedaForm.resx">
+      <DependentUpon>SimpedaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="dbAntrianDataSet.xsc">
+      <DependentUpon>dbAntrianDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbAntrianDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbAntrianDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbAntrianDataSet.xss">
+      <DependentUpon>dbAntrianDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Tikets\Coba.xml" />
+    <Content Include="bin\Debug\Tikets\Default.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="dbAntrian.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\clipboard b.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\applications.png" />
+    <None Include="Resources\apps.png" />
+    <None Include="Resources\barcode.png" />
+    <None Include="Resources\bringtofront.png" />
+    <None Include="Resources\calender day.png" />
+    <None Include="Resources\calender month.png" />
+    <None Include="Resources\clipboard b1.png" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\copy.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\disquette.png" />
+    <None Include="Resources\doc.png" />
+    <None Include="Resources\empty document new.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\label.png" />
+    <None Include="Resources\line.png" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\orb minus.png" />
+    <None Include="Resources\orb plus.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\Photo1360.jpg" />
+    <None Include="Resources\picture.png" />
+    <None Include="Resources\pictures.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\sendtoback.png" />
+    <None Include="Resources\system.png" />
+    <None Include="Resources\text.png" />
+    <Content Include="Tikets\Coba.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tikets\Default.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Theme.xml" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="My-Computer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

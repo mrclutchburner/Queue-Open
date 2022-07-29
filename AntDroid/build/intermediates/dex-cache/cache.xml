@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\libs\eneter-messaging-6.5.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="813436c9b64b17d7a4519552fb01c3041d432520">
+        <dex dex="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\build\intermediates\pre-dexed\debug\eneter-messaging-6.5.2-334d08a12e80568a8ba69a4cdf85cc36cd33d31e.jar" />
+    </item>
+
+</items>

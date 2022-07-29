@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShanuDrawingToolsList>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>21</LocationX>
+    <LocationY>366</LocationY>
+    <SizeWidth>100</SizeWidth>
+    <SizeHeight>23</SizeHeight>
+    <Text>Create new text</Text>
+    <Fonts>Microsoft Sans Serif:10:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Text_619</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>123</LocationX>
+    <LocationY>323</LocationY>
+    <SizeWidth>100</SizeWidth>
+    <SizeHeight>23</SizeHeight>
+    <Text>Create new text</Text>
+    <Fonts>Microsoft Sans Serif:10:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Text_351</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>29</LocationX>
+    <LocationY>304</LocationY>
+    <SizeWidth>100</SizeWidth>
+    <SizeHeight>23</SizeHeight>
+    <Text>Create new text</Text>
+    <Fonts>Microsoft Sans Serif:10:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Text_393</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.PictureBox">
+    <ControlsType>System.Windows.Forms.PictureBox</ControlsType>
+    <LocationX>5</LocationX>
+    <LocationY>7</LocationY>
+    <SizeWidth>258</SizeWidth>
+    <SizeHeight>54</SizeHeight>
+    <Text>
+    </Text>
+    <Fonts>Microsoft Sans Serif:8.25:0</Fonts>
+    <picImage>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</picImage>
+    <BackColor>Black</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Logo893</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="Line">
+    <ControlsType>Line</ControlsType>
+    <LocationX>3</LocationX>
+    <LocationY>63</LocationY>
+    <SizeWidth>270</SizeWidth>
+    <SizeHeight>3</SizeHeight>
+    <Text>
+    </Text>
+    <Fonts>Microsoft Sans Serif:8.25:0</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>Black</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Line_222</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>3</LocationX>
+    <LocationY>70</LocationY>
+    <SizeWidth>203</SizeWidth>
+    <SizeHeight>16</SizeHeight>
+    <Text>Kamis, 30-07-2015 , 09:57:27</Text>
+    <Fonts>Arial:10:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>DateClock</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>6</LocationX>
+    <LocationY>188</LocationY>
+    <SizeWidth>272</SizeWidth>
+    <SizeHeight>23</SizeHeight>
+    <Text>Silahkan menunggu nomor antrian</Text>
+    <Fonts>Microsoft Sans Serif:10:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Text_492_248</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>62</LocationX>
+    <LocationY>209</LocationY>
+    <SizeWidth>133</SizeWidth>
+    <SizeHeight>23</SizeHeight>
+    <Text> anda di panggil</Text>
+    <Fonts>Microsoft Sans Serif:10:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Text_492</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>16</LocationX>
+    <LocationY>93</LocationY>
+    <SizeWidth>248</SizeWidth>
+    <SizeHeight>23</SizeHeight>
+    <Text>NOMOR ANTRIAN ANDA</Text>
+    <Fonts>Microsoft Sans Serif:14.25:3</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>Header_302</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+  <Controls ID="System.Windows.Forms.Label">
+    <ControlsType>System.Windows.Forms.Label</ControlsType>
+    <LocationX>30</LocationX>
+    <LocationY>119</LocationY>
+    <SizeWidth>242</SizeWidth>
+    <SizeHeight>71</SizeHeight>
+    <Text>A 001</Text>
+    <Fonts>Microsoft Sans Serif:48:1</Fonts>
+    <picImage>
+    </picImage>
+    <BackColor>White</BackColor>
+    <ForeColor>ControlText</ForeColor>
+    <CntrlsName>NomorAntrian</CntrlsName>
+    <panelWidth>276</panelWidth>
+    <panelHeight>447</panelHeight>
+  </Controls>
+</ShanuDrawingToolsList>

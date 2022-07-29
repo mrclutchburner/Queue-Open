@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Counters</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Server\bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>smart_phone.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eneter.Messaging.Framework">
+      <HintPath>..\..\Server\bin\Debug\Eneter.Messaging.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\DataOutput.vb" />
+    <Compile Include="Class\RegAcces.vb" />
+    <Compile Include="Client.Designer.vb">
+      <DependentUpon>Client.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ConfigClient.designer.vb">
+      <DependentUpon>ConfigClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ConfigClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\CounterComponent.vb" />
+    <Compile Include="Class\Int2BCD.vb" />
+    <Compile Include="Form\LoginConfig.designer.vb">
+      <DependentUpon>LoginConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LoginConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SettingRunningText.designer.vb">
+      <DependentUpon>SettingRunningText.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SettingRunningText.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Transfer.Designer.vb">
+      <DependentUpon>Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Form\PrintNomor.designer.vb">
+      <DependentUpon>PrintNomor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PrintNomor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\RandomTransferValue.vb" />
+    <Compile Include="Class\SettingLayanan.vb" />
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ConfigClient.resx">
+      <DependentUpon>ConfigClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LoginConfig.resx">
+      <DependentUpon>LoginConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SettingRunningText.resx">
+      <DependentUpon>SettingRunningText.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Transfer.resx">
+      <DependentUpon>Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PrintNomor.resx">
+      <DependentUpon>PrintNomor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="app.manifest">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\Debug\Counters.vshost.exe" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Config.jpg" />
+    <None Include="Resources\ConfigActive.jpg" />
+    <None Include="Resources\Finish.jpg" />
+    <None Include="Resources\FinishActive.jpg" />
+    <None Include="Resources\Login.jpg" />
+    <None Include="Resources\LoginActive.jpg" />
+    <None Include="Resources\LogOut.jpg" />
+    <None Include="Resources\LogOutActive.jpg" />
+    <None Include="Resources\Part-Client_15.jpg" />
+    <None Include="Resources\Pending.jpg" />
+    <None Include="Resources\PendingActive.jpg" />
+    <None Include="Resources\Recall.jpg" />
+    <None Include="Resources\RecallActive.jpg" />
+    <None Include="Resources\Start.jpg" />
+    <None Include="Resources\StartActive.jpg" />
+    <None Include="Resources\Transfer.jpg" />
+    <None Include="Resources\TransferActive.jpg" />
+    <None Include="Resources\User.jpg" />
+    <None Include="Resources\UserLog.jpg" />
+    <None Include="Resources\Call.jpg" />
+    <None Include="Resources\CallActive.jpg" />
+    <None Include="Resources\CallPending.jpg" />
+    <None Include="Resources\CallPendingActive.jpg" />
+    <None Include="Resources\Close.jpg" />
+    <None Include="Resources\CloseActive.jpg" />
+    <None Include="Resources\ConectActive.jpg" />
+    <None Include="Resources\Conect.jpg" />
+    <None Include="Resources\btnClose.jpg" />
+    <None Include="Resources\btnCloseActive.jpg" />
+    <None Include="Resources\btnOK.jpg" />
+    <None Include="Resources\btnOKActive.jpg" />
+    <None Include="Resources\PendingList.jpg" />
+    <None Include="Resources\SubLayanan.jpg" />
+    <None Include="Resources\LoginForm.jpg" />
+    <None Include="Resources\BtnLogin.jpg" />
+    <None Include="Resources\BtnLoginActive.jpg" />
+    <None Include="Resources\BtnLoginClose.jpg" />
+    <None Include="Resources\BtnLoginCloseActive.jpg" />
+    <None Include="Resources\Background.jpg" />
+    <Content Include="smart_phone.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

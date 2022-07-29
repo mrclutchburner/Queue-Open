@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res"><file name="appear" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\anim\appear.xml" qualifiers="" type="anim"/><file name="disappear" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\anim\disappear.xml" qualifiers="" type="anim"/><file name="background_land" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\background_land.png" qualifiers="" type="drawable"/><file name="background_pot" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\background_pot.png" qualifiers="" type="drawable"/><file name="callpending_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\callpending_focus.png" qualifiers="" type="drawable"/><file name="callpending_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\callpending_in.png" qualifiers="" type="drawable"/><file name="callpending_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\callpending_preesed.png" qualifiers="" type="drawable"/><file name="callpending_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\callpending_selector.xml" qualifiers="" type="drawable"/><file name="call_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\call_focus.png" qualifiers="" type="drawable"/><file name="call_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\call_in.png" qualifiers="" type="drawable"/><file name="call_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\call_preesed.png" qualifiers="" type="drawable"/><file name="call_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\call_selector.xml" qualifiers="" type="drawable"/><file name="close_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\close_focus.png" qualifiers="" type="drawable"/><file name="close_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\close_in.png" qualifiers="" type="drawable"/><file name="close_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\close_preesed.png" qualifiers="" type="drawable"/><file name="close_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\close_selector.xml" qualifiers="" type="drawable"/><file name="connect_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\connect_focus.png" qualifiers="" type="drawable"/><file name="connect_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\connect_in.png" qualifiers="" type="drawable"/><file name="connect_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\connect_preesed.png" qualifiers="" type="drawable"/><file name="connect_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\connect_selector.xml" qualifiers="" type="drawable"/><file name="finish_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\finish_focus.png" qualifiers="" type="drawable"/><file name="finish_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\finish_in.png" qualifiers="" type="drawable"/><file name="finish_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\finish_preesed.png" qualifiers="" type="drawable"/><file name="finish_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\finish_selector.xml" qualifiers="" type="drawable"/><file name="login_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\login_focus.png" qualifiers="" type="drawable"/><file name="login_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\login_in.png" qualifiers="" type="drawable"/><file name="login_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\login_preesed.png" qualifiers="" type="drawable"/><file name="login_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\login_selector.xml" qualifiers="" type="drawable"/><file name="logout_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\logout_focus.png" qualifiers="" type="drawable"/><file name="logout_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\logout_in.png" qualifiers="" type="drawable"/><file name="logout_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\logout_preesed.png" qualifiers="" type="drawable"/><file name="logout_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\logout_selector.xml" qualifiers="" type="drawable"/><file name="pending_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\pending_focus.png" qualifiers="" type="drawable"/><file name="pending_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\pending_in.png" qualifiers="" type="drawable"/><file name="pending_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\pending_preesed.png" qualifiers="" type="drawable"/><file name="pending_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\pending_selector.xml" qualifiers="" type="drawable"/><file name="recall_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\recall_focus.png" qualifiers="" type="drawable"/><file name="recall_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\recall_in.png" qualifiers="" type="drawable"/><file name="recall_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\recall_preesed.png" qualifiers="" type="drawable"/><file name="recall_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\recall_selector.xml" qualifiers="" type="drawable"/><file name="setting_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\setting_focus.png" qualifiers="" type="drawable"/><file name="setting_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\setting_in.png" qualifiers="" type="drawable"/><file name="setting_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\setting_preesed.png" qualifiers="" type="drawable"/><file name="setting_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\setting_selector.xml" qualifiers="" type="drawable"/><file name="start_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\start_focus.png" qualifiers="" type="drawable"/><file name="start_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\start_in.png" qualifiers="" type="drawable"/><file name="start_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\start_preesed.png" qualifiers="" type="drawable"/><file name="start_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\start_selector.xml" qualifiers="" type="drawable"/><file name="transfer_focus" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\transfer_focus.png" qualifiers="" type="drawable"/><file name="transfer_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\transfer_in.png" qualifiers="" type="drawable"/><file name="transfer_preesed" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\transfer_preesed.png" qualifiers="" type="drawable"/><file name="transfer_selector" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\transfer_selector.xml" qualifiers="" type="drawable"/><file name="user_in" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\user_in.png" qualifiers="" type="drawable"/><file name="user_out" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable\user_out.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="config_layout" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\config_layout.xml" qualifiers="" type="layout"/><file name="display_config" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\display_config.xml" qualifiers="" type="layout"/><file name="hold_layout" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\hold_layout.xml" qualifiers="" type="layout"/><file name="login_dialog" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\login_dialog.xml" qualifiers="" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\main.xml" qualifiers="" type="layout"/><file name="sublay_layout" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\sublay_layout.xml" qualifiers="" type="layout"/><file name="transfer_layout" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout\transfer_layout.xml" qualifiers="" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-hdpi\main.xml" qualifiers="hdpi-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-land\main.xml" qualifiers="land" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-land-hdpi\main.xml" qualifiers="land-hdpi-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-land-xhdpi\main.xml" qualifiers="land-xhdpi-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-land-xxhdpi\main.xml" qualifiers="land-xxhdpi-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-large\main.xml" qualifiers="large-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-large-land\main.xml" qualifiers="large-land-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-mdpi\main.xml" qualifiers="mdpi-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-xhdpi\main.xml" qualifiers="xhdpi-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-xlarge\main.xml" qualifiers="xlarge-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-xlarge-land\main.xml" qualifiers="xlarge-land-v4" type="layout"/><file name="main" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\layout-xxhdpi\main.xml" qualifiers="xxhdpi-v4" type="layout"/><file name="setting_menu" path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\menu\setting_menu.xml" qualifiers="" type="menu"/><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values\strings.xml" qualifiers=""><string name="action_settings">Setting</string><string name="app_name">AntDroid</string><string name="spinner_prompt">Choose a country</string><string-array name="spinnerItems">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values\Style.xml" qualifiers=""><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-xxhdpi\Style.xml" qualifiers="xxhdpi"><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-land-hdpi\Style.xml" qualifiers="land-hdpi"><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-xlarge\Style.xml" qualifiers="xlarge"><style name="blinkText" parent="normalText">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">175sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">175sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-xlarge-land\Style.xml" qualifiers="xlarge-land"><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">175sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">175sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-xhdpi\Style.xml" qualifiers="xhdpi"><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-large\Style.xml" qualifiers="large"><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">120sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">120sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-land-xxhdpi\Style.xml" qualifiers="land-xxhdpi"><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-hdpi\Style.xml" qualifiers="hdpi"><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-land-xhdpi\Style.xml" qualifiers="land-xhdpi"><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file><file path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\res\values-large-land\Style.xml" qualifiers="large-land"><style name="normalTextNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">120sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="blinkText" parent="normalText">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="blinkTextNumber" parent="normalTextNumber">
+    <item name="android:textSize">120sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#FFFFFF</item>
+    </style><style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style></file></source><source path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\build\generated\res\rs\debug"/><source path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="E:\Project Software\Data Projek Jadi\Queue Android\AntDroid\build-types\debug\res"/></dataSet><mergedItems/></merger>

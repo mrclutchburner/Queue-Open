@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Server", "Server\Server.vbproj", "{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Counter", "Counter 2\Counter.vbproj", "{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Printer", "Printer\Printer.vbproj", "{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Debug|x86.ActiveCfg = Debug|x86
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Debug|x86.Build.0 = Debug|x86
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Release|x86.ActiveCfg = Release|x86
+		{80BD5639-AC64-4D9D-A24F-F9C7CFBB320A}.Release|x86.Build.0 = Release|x86
+		{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}.Debug|x86.ActiveCfg = Debug|x86
+		{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}.Debug|x86.Build.0 = Debug|x86
+		{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}.Release|Any CPU.ActiveCfg = Release|x86
+		{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}.Release|x86.ActiveCfg = Release|x86
+		{1D6BD6BA-766D-4965-B8E9-1235BC1CB668}.Release|x86.Build.0 = Release|x86
+		{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}.Debug|x86.ActiveCfg = Debug|x86
+		{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}.Debug|x86.Build.0 = Debug|x86
+		{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}.Release|Any CPU.ActiveCfg = Release|x86
+		{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}.Release|x86.ActiveCfg = Release|x86
+		{3C1E8AA5-3515-474F-B02F-085F20EC2BB5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
